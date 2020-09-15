@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+//React Component Incantation
 class PictureGallery extends Component {
 
     render() {

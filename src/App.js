@@ -8,27 +8,29 @@ import './App.css';
 // But on client side we do..
 import PictureGallery from './PictureGallery';
 
+// import the ThingsToLearn component
+import ThingsToLearn from './ThingsToLearn';
+
 //React Component Incantation
 class App extends Component {
+
   render() {
     return (
       <div>
         <h1>Happy React Day!</h1>
 
-        <h3>Things to lear about React:</h3>
-        <ul>
-          <li>HTML inside of JS files</li>
-          <li>class App extends Component?!</li>
-          <li>render()?</li>
-          <li>import / export</li>
-
-
-        </ul>
+        <h3>Things to learn about React:</h3>
+        <ThingsToLearn/>
+  
         <h3>Check out my picture gallery:</h3>
+        <PictureGallery />
+        <h3>Here's another one:</h3>
         <PictureGallery />
       </div>
     );
   }
+  
+  
 }
 
 export default App;
